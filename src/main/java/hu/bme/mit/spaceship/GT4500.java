@@ -46,6 +46,8 @@ public class GT4500 implements SpaceShip {
             firingSuccess = secondaryTorpedoStore.fire(1);
             wasPrimaryFiredLast = false;
           }
+
+          //
           else {
             // although primary was fired last time, but the secondary is empty
             // thus try to fire primary again
